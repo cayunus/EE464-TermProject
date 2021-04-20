@@ -12,12 +12,14 @@
 ## Important Points
 - The chosen topology: > Flyback converter
 ## Plans
+
 - <details>
-  <summary>**15.04.2021**.</summary>
+  <summary>15.04.2021</summary>
   <markdown>
-- Flyback converter controllers have been researching 
+   - Flyback converter controllers have been researching 
   </markdown>
 </details>
+
 ## Questions
 
 ## Don't reinvent the tire (Lessons)
