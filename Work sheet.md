@@ -24,8 +24,9 @@
 
 ## Don't reinvent the tire (Lessons)
 
-# Questions&Answers
-
+## Questions&Answers
+## Useful Resources and Links
+- Information and calculation about saturation of a core visit the [page](http://pigeonsnest.co.uk/stuff/core-saturation.html)
 
 ## Working sheet
 ### Halid
