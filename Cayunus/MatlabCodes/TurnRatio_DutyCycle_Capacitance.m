@@ -1,23 +1,34 @@
 Vo = 12; % V - Output voltage
-TurnRatio = 20;
-VoltageRange = linspace(220,400,2000);
+TurnRatio = 10;
+VoltageRange = linspace(220,400,100);
 Pout = 100; % W - Max output power
 Iout = Pout/Vo; % A - Max output current
 R = (Vo^2)/Pout;
 fs = 100e3; % Hz - Switching frequency
-Lm = 1e-3; % Henry - Magnetizing inductance
+Lm = 0.2e-3; % Henry - Magnetizing inductance
+Ipeak = 0; % Max value of an inductor curren
 i = 1; % index value for arrays in the while loop
 while(i <= numel(VoltageRange))
     D(i) = 1/[((VoltageRange(i)/Vo)*(1/TurnRatio))+1]; % CCM Duty cycle
     C(i) = (D(i)*Iout)/(fs*Vo*0.04);
     ILripple(i) = [D(i)*VoltageRange(i)]/[fs*Lm];
     ILdc(i) = Pout/(VoltageRange(i)*D(i));
+    
+    % Determine peak value of IL - CCM
+    if (Ipeak <= ILdc(i)+ILripple(i)/2 && ILripple(i)/2 < ILdc(i))
+        Ipeak = ILdc(i)+ILripple(i)/2;
+    end
+    
     if (ILripple(i)/2 > ILdc(i)) % Transition to DCM
         %D(i) = [(1/VoltageRange(i))*sqrt(2*Pout*Lm*fs)]; % Constant Po Duty
         D(i) = [(Vo/VoltageRange(i))/sqrt(R/(2*Lm*fs))]; % Constant Vo Duty
         ILripple(i) = [D(i)*VoltageRange(i)]/[fs*Lm];
+        ILdc(i) = ILripple(i)/2;
         Ddcm(i) = [(ILripple(i)*Lm*fs)/(Vo*TurnRatio)];
         Doff = 1-D(i)-Ddcm(i);
+        if (Ipeak <= ILripple(i)) % Determine peak value of IL - DCM
+            Ipeak = ILripple(i);
+        end
     end
     i = i+1;
 end
