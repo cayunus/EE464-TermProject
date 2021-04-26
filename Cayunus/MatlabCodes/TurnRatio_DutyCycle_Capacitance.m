@@ -5,7 +5,7 @@ Pout = 100; % W - Max output power
 Iout = Pout/Vo; % A - Max output current
 R = (Vo^2)/Pout;
 fs = 100e3; % Hz - Switching frequency
-Lm = 0.2e-3; % Henry - Magnetizing inductance
+Lm = 1e-3; % Henry - Magnetizing inductance
 Ipeak = 0; % Max value of an inductor curren
 i = 1; % index value for arrays in the while loop
 while(i <= numel(VoltageRange))
@@ -13,7 +13,8 @@ while(i <= numel(VoltageRange))
     C(i) = (D(i)*Iout)/(fs*Vo*0.04);
     ILripple(i) = [D(i)*VoltageRange(i)]/[fs*Lm];
     ILdc(i) = Pout/(VoltageRange(i)*D(i));
-    
+    A(i) = ILdc(i)-ILripple(i)/2;
+    Irms(i) = sqrt(D(i))*sqrt([(ILripple(i)^2)/3]+[ILripple(i)*A(i)]+[A(i)^2]);
     % Determine peak value of IL - CCM
     if (Ipeak <= ILdc(i)+ILripple(i)/2 && ILripple(i)/2 < ILdc(i))
         Ipeak = ILdc(i)+ILripple(i)/2;
@@ -24,6 +25,7 @@ while(i <= numel(VoltageRange))
         D(i) = [(Vo/VoltageRange(i))/sqrt(R/(2*Lm*fs))]; % Constant Vo Duty
         ILripple(i) = [D(i)*VoltageRange(i)]/[fs*Lm];
         ILdc(i) = ILripple(i)/2;
+        Irms(i) = sqrt(D(i))*(ILripple(i)/sqrt(3));
         Ddcm(i) = [(ILripple(i)*Lm*fs)/(Vo*TurnRatio)];
         Doff = 1-D(i)-Ddcm(i);
         if (Ipeak <= ILripple(i)) % Determine peak value of IL - DCM
@@ -39,6 +41,8 @@ plot(VoltageRange,C);
 figure(3);
 plot(VoltageRange,ILripple,VoltageRange,ILdc);
 legend('ILripple','ILdc')
+figure(4);
+plot(VoltageRange,Irms);
 %% Critical Conduction Mode Line
 Vo = 12; % V - Output voltage
 TurnRatio = 10;
