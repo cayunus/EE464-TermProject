@@ -3,4 +3,4 @@ This repository includes the work put into the design of an isolated DC/DC conve
 
 Complete Simulation Report: https://docs.google.com/document/d/1Nri5DbtKmKyNQxO-GPV3UCYGi9CR-nUp9evS7hW1Gps/edit?usp=sharing
 
-Presentation Link: https://docs.google.com/presentation/d/1tAQgM4lNq-ox6lCjjR08sszLsAYqykTbK8jtL-5Cm6U/edit?usp=sharing
+How to Add .lib files in LTspice: https://www.analog.com/en/technical-articles/ltspice-simple-steps-to-import-third-party-models.html
