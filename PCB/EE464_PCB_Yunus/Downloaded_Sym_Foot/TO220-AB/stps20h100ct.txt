@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"SUPPLIER_NAME";"RS Components";"";
+"TraceParts.PartVersion";"1.0.9";"";
+"SUPPLIER";"STMicroelectronics";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"10-09032015-133698";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"STMicroelectronics 100V 20A, Dual Schottky Diode, 3-Pin TO-220AB STPS20H100CT";"";
+"TraceParts.InstanceId";"10-09032015-1336985CAEZBY02RGW2GS4TPOG08ZTX";"";
+"TraceParts.PartTitle";"STMicroelectronics 100V 20A, Dual Schottky Diode, 3-Pin TO-220AB STPS20H100CT";"";
+"TraceParts.PartStatusId";"";"";
+"REFERENCE";"STPS20H100CT";"";
+"Buy_Now";"https://uk.rs-online.com/web/p/products/4862559?cm_mmc=en-ds-_-mcad-_-traceparts-_-4862559'";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"rs_stock_number";"4862559";"";
+"TraceParts.ClassPath";"";"";

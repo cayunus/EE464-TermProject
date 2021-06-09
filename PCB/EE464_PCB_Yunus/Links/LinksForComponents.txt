@@ -1,0 +1,77 @@
+Resistor - R_Tc - Temperature Comp - 110k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603110KJNEA/1174278
+
+Resistor - R_FB1 - Feedback - 48.7k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW060348K7FKEA/1174860
+
+Resistor - R_FB2 - Feedback - 5.36k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW06035K36FKEA/1174751
+
+Resistor - R_Sense - Sense - 20m - 1/4W
+https://www.digikey.com/en/products/detail/susumu/RL1220T-R020-J/714251
+
+Resistor - R_IREG//SS - Current Regulation and SoftStart - 60.4k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW060360K4FKEA/1174871
+
+Resistor - R_CVc - Loop Compensation - 20k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW060320K0FKEAC/7928409
+
+Resistor - R_DCM - DCM Detection - 9.76k - 1/10W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW06039K76FKEA/1174781
+
+Resistor - R_Pri_Snubber - Snubber - 500 - 2W
+https://www.digikey.com/en/products/detail/bourns-inc/CRM2512-FX-4990ELF/4698401?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBOMAFggF18AHAFyhAGVmAnASwDsA5iAC%2B%2BGAAYAHAFZ4IFmwCqfHswDyyALLZUmAK5dsIfHrZqAFgFtMxkJf5tqk8bcuoAHm2niXokAFo4aBAkSG49PEISEFk6YXigA
+
+Resistor - R_Sec_Snubber - Snubber - 50 - 1/3W
+https://www.digikey.com/en/products/detail/vishay-dale/CRCW060349R9FKEAHP/2222241
+
+Capacitor - CVc - Loop Compensation - 100nF - 25V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71E104KE14J/4905174
+
+Capacitor - CİNTVc - Initial Bias - 4.7uF - 25V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM219R61E475MA73D/4905428
+
+Capacitor - CBias - Bias - 4.7uF - 35V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM219R6YA475KA73D/3900501
+
+Capacitor - CDCM - DCM Detection Pin - 47pF - 100V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C2A470JA01D/586980?s=N4IgTCBcDaIOICUCyBGAHGgrAYTAQQBYB2ABgCk8SUAREAXQF8g
+
+Capacitor - C_Out - Output Capacitor - 470uF - 16V
+https://www.digikey.com/en/products/detail/kemet/A750EQ477M1CAAE015/13420057
+
+Capacitor - C_Out - Output Capacitor - 10uF - 25V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106MA73L/4905533
+
+Capacitor - C_Pri_Snub - Primary Snubber Capacitor - 100p - 630V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM31A5C2J101JW01D/2039000
+
+Capacitor - C_Sec_Snub - Primary Snubber Capacitor - 470p - 100V
+https://www.digikey.com/en/products/detail/murata-electronics/GRM155R72A471KA01D/2610965
+
+Ferrite core - ETD 34 x 17 x 11 - 1mm Air gap
+https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66361G1000X127/3915590
+
+Coil former (Karkas) - ETD 34 x 17 x 11 - Horizontal
+https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66362W1014T001/3914807
+
+LT8316 - IC - LT8316IFE#PBF
+https://www.digikey.com/en/products/detail/analog-devices-inc/LT8316IFE-PBF/9972964
+
+Secondary diode - STPS20SM120ST - TO220-AB
+https://www.digikey.com/en/products/detail/stmicroelectronics/STPS20SM120ST/5244936
+
+MOSFET - IPA70R600P7S - Infinion
+https://www.digikey.com/en/products/detail/infineon-technologies/IPA70R600P7SXKSA1/6579136
+
+Diode - Clamp Fast Diode - RFN1L7S - 700V
+https://www.digikey.com/en/products/detail/rohm-semiconductor/RFN1L7SDDTE25/12359526
+
+Diode Zener - Clamp Zener Diode - 1N5378 - 100V - 5W
+https://www.digikey.com/en/products/detail/on-semiconductor/1N5378BG/1474165
+
+Diode - Bias - RB058L150 - 150V 3A
+https://www.digikey.com/en/products/detail/rohm-semiconductor/RB058LAM150TR/7243289
+
+
+

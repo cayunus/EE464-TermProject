@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"CRM2512-JW-201ELF";"";
+"TraceParts.PartVersion";"1.0.4";"";
+"SUPPLIER";"Bourns Electronics";"";
+"TraceParts.PartStatus";"Published";"";
+"ALLIED_STOCK_NUMBER";"70408497";"";
+"TraceParts.PartNumber";"10-21092017-069311";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"2512 Thickfilm Chip resistor 200R";"";
+"TraceParts.InstanceId";"10-21092017-06931116JTAIQ5ODTINJ5LXSPXP5GN3";"";
+"TraceParts.PartTitle";"2512 Thickfilm Chip resistor 200R";"";
+"TraceParts.PartStatusId";"";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.ClassPath";"/ALLIED_ELECTRONICS/PSSS_432964/PSS_432996/PSF_433010/";"";
