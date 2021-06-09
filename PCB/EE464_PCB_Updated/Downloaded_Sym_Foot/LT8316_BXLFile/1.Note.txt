@@ -1,0 +1,6 @@
+NOTE: 
+
+1. BXL files provided represent each model for this generic that share the same package. 
+
+2. Please visit Ultra Librarian Online Reader to convert BXL file into CAD file of your liking.
+https://www.ultralibrarian.com/products/online-reader
