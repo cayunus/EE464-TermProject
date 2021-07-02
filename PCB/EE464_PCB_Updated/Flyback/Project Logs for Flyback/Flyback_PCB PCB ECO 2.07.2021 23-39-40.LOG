@@ -1,0 +1,11 @@
+Change Component Comment : Designator=Designator5 Old Comment=Comment New Comment=1500pF
+Change Component Designator: OldDesignator=Designator5 NewDesignator=C14
+Change component parameters: Designator = "Designator5" ("C14"); Footprint = "SMDY1102MY5UCB"; UniqueID = "\JFCHVMTN" ("\JFCHVMTN")
+Change component parameters (AddParameter): Name = "Category"; Value = "Capacitors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SMDY1152MY5UCR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1000=0,57750 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "56-SMDY1152MY5UCRTR-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PGND Pin=C14-1
+Added Pin To Net: NetName=SGND Pin=C14-2

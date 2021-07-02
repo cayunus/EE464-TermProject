@@ -88,7 +88,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GCEYRAWM
+DocumentUniqueId=DPZITWLU
 
 [Document4]
 DocumentPath=Flyback_PCB.PcbDoc
@@ -113,6 +113,10 @@ DItemRevisionGUID=
 
 [GeneratedDocument2]
 DocumentPath=Project Outputs for Flyback\Design Rule Check - Flyback_PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Flyback_Schlib.cmp
 DItemRevisionGUID=
 
 [Configuration1]
