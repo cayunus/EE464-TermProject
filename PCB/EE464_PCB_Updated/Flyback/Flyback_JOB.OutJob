@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Flyback_JOB.OutJob
 Description=
-TargetOutputMedium=New PDF
+TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -40,12 +40,25 @@ OutputDocumentPath1=Flyback_PCB.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
-OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=False|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=4|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False
+OutputType2=ExportIDF
+OutputName2=Export IDF
+OutputCategory2=Export
+OutputDocumentPath2=Flyback_PCB.PcbDoc
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=1
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=Record=ExportIDF|VersionNumber=1|DisplayUnits=2|DrilledHolesKind=0|DrilledHolesLargerThanSize=200,0|BlankComponentString= |UseSafeComponentNames=False|UseUnicode=False|MultipleComponentBodyMode=0|FileExtensionType=2|OverrideComponentNameWithParameter= |eoBoardOutline=0|eoDrilledHoles=1|eoPlacement=2
 
 [PublishSettings]
 OutputFilePath2=D:\Users\26055743\OneDrive - ARÇELÝK A.Þ\Desktop\EE464_PCB\EE464-TermProject\PCB\EE464_PCB_Updated\Flyback\Project Outputs for Flyback\
