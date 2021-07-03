@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 02:33:41 On 3.07.2021
+Start Output Generation At 16:04:23 On 3.07.2021
 
 Output: Export IDF
 Type  : ExportIDF
@@ -11,4 +11,4 @@ From  : PCB Document [Flyback_PCB.PcbDoc]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 02:33:42 On 3.07.2021
+Finished Output Generation At 16:04:24 On 3.07.2021
