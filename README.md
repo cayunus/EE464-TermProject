@@ -1,6 +1,8 @@
 # EE464-TermProject
 This repository includes the work put into the design of an isolated DC/DC converter with a 12V output and 100W rating.
 
+Final Presentation: https://docs.google.com/presentation/d/1tAQgM4lNq-ox6lCjjR08sszLsAYqykTbK8jtL-5Cm6U/edit#slide=id.p
+
 Final Report: https://docs.google.com/document/d/1Ga_3vTAyOD3y9dfrS9bvXqfX1RUAF8NENX0YpGBZcNM/edit?usp=sharing
 
 Component List: https://docs.google.com/spreadsheets/d/1R3LbDUZQGh2-h5aSoq4ABOOYQwFWA9nZVz4NNkLxFJc/edit?usp=sharing
